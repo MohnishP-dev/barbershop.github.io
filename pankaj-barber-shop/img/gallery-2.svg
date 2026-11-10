@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Straight razor">
+  <defs>
+    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e1e25"/><stop offset="1" stop-color="#0b0b0e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="46%" cy="42%" r="64%">
+      <stop offset="0" stop-color="#c8a24a" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#c8a24a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stripes" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="15" height="30" fill="#f4efe6" fill-opacity=".035"/>
+    </pattern>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0dca9"/><stop offset=".5" stop-color="#c8a24a"/><stop offset="1" stop-color="#8a6e2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <rect width="800" height="1000" fill="url(#stripes)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#c8a24a" stroke-opacity=".35" stroke-width="2"/>
+
+  <g transform="translate(400 470) rotate(-20) scale(1.15)">
+    <g fill="none" stroke="url(#au)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-272 -8 L96 -38 Q142 -42 148 -8 L148 8 Q148 40 100 42 L-264 34 Q-292 32 -292 12 Q-292 -6 -272 -8 Z"/>
+      <path d="M-258 24 L96 22" stroke-width="4" stroke-opacity=".6"/>
+      <path d="M150 -14 Q234 -22 278 22 Q306 52 276 72 Q244 92 176 48" stroke-width="11"/>
+    </g>
+    <circle cx="152" cy="16" r="7" fill="#ecd69a"/>
+    <circle cx="152" cy="16" r="14" fill="none" stroke="#c8a24a" stroke-width="3" stroke-opacity=".7"/>
+  </g>
+
+  <g fill="none" stroke="#c8a24a" stroke-opacity=".55" stroke-width="2">
+    <path d="M120 830 H330"/><path d="M470 830 H680"/>
+  </g>
+  <path d="M400 818 414 830 400 842 386 830z" fill="#c8a24a" fill-opacity=".8"/>
+  <text x="400" y="898" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="30" letter-spacing="14" fill="#9c968b">WET SHAVE</text>
+</svg>

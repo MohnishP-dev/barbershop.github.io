@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Comb and clippers">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1e25"/><stop offset="1" stop-color="#0b0b0e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="52%" cy="40%" r="64%">
+      <stop offset="0" stop-color="#c8a24a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#c8a24a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stripes" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="15" height="30" fill="#f4efe6" fill-opacity=".035"/>
+    </pattern>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0dca9"/><stop offset=".5" stop-color="#c8a24a"/><stop offset="1" stop-color="#8a6e2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <rect width="800" height="1000" fill="url(#stripes)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#c8a24a" stroke-opacity=".35" stroke-width="2"/>
+
+  <!-- clippers -->
+  <g transform="translate(310 470) rotate(-9)">
+    <rect x="-78" y="-176" width="156" height="386" rx="40" fill="#141418" stroke="url(#au)" stroke-width="8"/>
+    <path d="M-70 -176 v-56 q0 -30 30 -30 h80 q30 0 30 30 v56" fill="#141418" stroke="url(#au)" stroke-width="8"/>
+    <g stroke="url(#au)" stroke-width="7" stroke-linecap="round">
+      <path d="M-58 -262 v-42"/><path d="M-34 -262 v-42"/><path d="M-10 -262 v-42"/>
+      <path d="M14 -262 v-42"/><path d="M38 -262 v-42"/><path d="M60 -262 v-42"/>
+    </g>
+    <rect x="-46" y="-92" width="92" height="122" rx="16" fill="none" stroke="#c8a24a" stroke-width="5" stroke-opacity=".75"/>
+    <path d="M-30 -78 h60" stroke="#c8a24a" stroke-width="6" stroke-linecap="round" stroke-opacity=".8"/>
+    <path d="M-30 -54 h60" stroke="#c8a24a" stroke-width="6" stroke-linecap="round" stroke-opacity=".55"/>
+    <rect x="-40" y="128" width="80" height="46" rx="20" fill="none" stroke="#c8a24a" stroke-width="5" stroke-opacity=".6"/>
+    <circle cx="0" cy="176" r="7" fill="#ecd69a"/>
+  </g>
+
+  <!-- comb -->
+  <g transform="translate(566 486) rotate(13)">
+    <rect x="-52" y="-256" width="104" height="56" rx="20" fill="url(#au)" fill-opacity=".92"/>
+    <g stroke="url(#au)" stroke-width="7" stroke-linecap="round">
+      <path d="M-40 -200 v186"/><path d="M-24 -200 v186"/><path d="M-8 -200 v186"/>
+      <path d="M8 -200 v186"/><path d="M24 -200 v186"/><path d="M40 -200 v186"/>
+    </g>
+    <path d="M-52 -228 h104" stroke="#0d0d10" stroke-width="6" stroke-opacity=".5"/>
+  </g>
+
+  <g fill="none" stroke="#c8a24a" stroke-opacity=".55" stroke-width="2">
+    <path d="M120 850 H330"/><path d="M470 850 H680"/>
+  </g>
+  <path d="M400 838 414 850 400 862 386 850z" fill="#c8a24a" fill-opacity=".8"/>
+  <text x="400" y="914" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="30" letter-spacing="14" fill="#9c968b">CLIPPER &amp; COMB</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Pankaj Barber Shop">
+  <defs>
+    <radialGradient id="fg" cx="32%" cy="24%" r="80%">
+      <stop offset="0" stop-color="#1d1d24"/>
+      <stop offset="1" stop-color="#0a0a0c"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecd69a"/>
+      <stop offset=".55" stop-color="#c8a24a"/>
+      <stop offset="1" stop-color="#8f7231"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="32" cy="32" r="31" fill="url(#fg)"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="url(#gold)" stroke-width="1.6"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#c8a24a" stroke-width=".7" opacity=".55"/>
+
+  <g fill="none" stroke="url(#gold)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="21.5" cy="45" r="5"/>
+    <circle cx="42.5" cy="45" r="5"/>
+    <path d="M25.4 42.6 44 15M38.6 42.6 20 15"/>
+    <circle cx="32" cy="27" r="1.6" fill="#ecd69a" stroke="none"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Barber pole">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1e25"/><stop offset="1" stop-color="#0b0b0e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="62%">
+      <stop offset="0" stop-color="#c8a24a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#c8a24a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stripes" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="15" height="30" fill="#f4efe6" fill-opacity=".035"/>
+    </pattern>
+    <pattern id="bp" width="84" height="84" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="84" height="84" fill="#f6f2ea"/>
+      <rect width="34" height="84" fill="#b3261e"/>
+      <rect x="34" width="20" height="84" fill="#f6f2ea"/>
+      <rect x="54" width="16" height="84" fill="#2b4a7d"/>
+      <rect x="70" width="14" height="84" fill="#f6f2ea"/>
+    </pattern>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0dca9"/><stop offset=".5" stop-color="#c8a24a"/><stop offset="1" stop-color="#8a6e2e"/>
+    </linearGradient>
+    <clipPath id="tube"><rect x="-66" y="-286" width="132" height="572" rx="66"/></clipPath>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <rect width="800" height="1000" fill="url(#stripes)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#c8a24a" stroke-opacity=".35" stroke-width="2"/>
+
+  <g transform="translate(400 460)">
+    <!-- caps -->
+    <rect x="-92" y="-356" width="184" height="66" rx="26" fill="#141418" stroke="url(#au)" stroke-width="7"/>
+    <rect x="-92" y="290" width="184" height="66" rx="26" fill="#141418" stroke="url(#au)" stroke-width="7"/>
+    <rect x="-74" y="-306" width="148" height="42" rx="16" fill="#141418" stroke="url(#au)" stroke-width="6"/>
+    <rect x="-74" y="264" width="148" height="42" rx="16" fill="#141418" stroke="url(#au)" stroke-width="6"/>
+
+    <!-- tube -->
+    <rect x="-70" y="-290" width="140" height="580" rx="70" fill="#0d0d10"/>
+    <g clip-path="url(#tube)">
+      <rect x="-66" y="-286" width="132" height="572" fill="url(#bp)"/>
+      <rect x="-66" y="-286" width="46" height="572" fill="#0a0a0c" fill-opacity=".34"/>
+      <rect x="30" y="-286" width="36" height="572" fill="#ffffff" fill-opacity=".14"/>
+    </g>
+    <rect x="-70" y="-290" width="140" height="580" rx="70" fill="none" stroke="url(#au)" stroke-width="7"/>
+    <path d="M-30 -262 V262" stroke="#ffffff" stroke-opacity=".28" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <g fill="none" stroke="#c8a24a" stroke-opacity=".55" stroke-width="2">
+    <path d="M120 870 H330"/><path d="M470 870 H680"/>
+  </g>
+  <path d="M400 858 414 870 400 882 386 870z" fill="#c8a24a" fill-opacity=".8"/>
+  <text x="400" y="934" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="30" letter-spacing="14" fill="#9c968b">SINCE DAY ONE</text>
+</svg>

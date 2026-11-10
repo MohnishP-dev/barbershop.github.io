@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Barber chair">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1e25"/><stop offset="1" stop-color="#0b0b0e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="64%">
+      <stop offset="0" stop-color="#c8a24a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#c8a24a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stripes" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="15" height="30" fill="#f4efe6" fill-opacity=".035"/>
+    </pattern>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0dca9"/><stop offset=".5" stop-color="#c8a24a"/><stop offset="1" stop-color="#8a6e2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <rect width="800" height="1000" fill="url(#stripes)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#c8a24a" stroke-opacity=".35" stroke-width="2"/>
+
+  <g transform="translate(30 30)" fill="none" stroke="url(#au)" stroke-width="9"
+     stroke-linecap="round" stroke-linejoin="round">
+    <!-- headrest -->
+    <rect x="330" y="176" width="104" height="80" rx="26"/>
+    <path d="M382 256 v34"/>
+
+    <!-- backrest -->
+    <path d="M318 300 q0 -18 20 -18 h84 q20 0 20 20 v196 q0 20 -20 20 h-84 q-20 0 -20 -18 z"/>
+
+    <!-- armrest -->
+    <path d="M262 470 h236 q20 0 20 18 t-20 18 h-236 q-20 0 -20 -18 t20 -18 z"/>
+    <path d="M266 506 v44"/>
+    <path d="M482 506 v44"/>
+
+    <!-- seat -->
+    <path d="M246 556 h272 q24 0 24 24 v40 q0 24 -24 24 h-272 q-24 0 -24 -24 v-40 q0 -24 24 -24 z"/>
+
+    <!-- pedestal -->
+    <path d="M366 644 h44 v112 h-44 z"/>
+    <path d="M262 792 q104 -36 208 0 q14 6 14 20 t-14 20 q-104 34 -208 0 q-14 -6 -14 -20 t14 -20 z"/>
+    <path d="M410 700 q56 6 76 60"/>
+
+    <!-- footrest -->
+    <path d="M244 660 h-70 q-20 0 -20 18 t20 18 h70"/>
+    <path d="M174 678 v44"/>
+    <rect x="122" y="722" width="120" height="30" rx="14"/>
+
+    <!-- upholstery detail -->
+    <path d="M340 340 h64 M340 384 h64 M340 428 h64" stroke-width="5" stroke-opacity=".55"/>
+    <path d="M284 596 h196" stroke-width="5" stroke-opacity=".5"/>
+  </g>
+
+  <g fill="none" stroke="#c8a24a" stroke-opacity=".55" stroke-width="2">
+    <path d="M120 872 H330"/><path d="M470 872 H680"/>
+  </g>
+  <path d="M400 860 414 872 400 884 386 872z" fill="#c8a24a" fill-opacity=".8"/>
+  <text x="400" y="936" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="30" letter-spacing="14" fill="#9c968b">THE CHAIR</text>
+</svg>

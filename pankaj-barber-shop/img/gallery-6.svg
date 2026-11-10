@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Styling spray">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1e25"/><stop offset="1" stop-color="#0b0b0e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="42%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#c8a24a" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#c8a24a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stripes" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="15" height="30" fill="#f4efe6" fill-opacity=".035"/>
+    </pattern>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0dca9"/><stop offset=".5" stop-color="#c8a24a"/><stop offset="1" stop-color="#8a6e2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <rect width="800" height="1000" fill="url(#stripes)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#c8a24a" stroke-opacity=".35" stroke-width="2"/>
+
+  <!-- spray bottle -->
+  <g transform="translate(320 480)">
+    <path d="M-86 -30 h172 v246 q0 48 -48 48 h-76 q-48 0 -48 -48 z"
+          fill="#141418" stroke="url(#au)" stroke-width="9" stroke-linejoin="round"/>
+    <rect x="-40" y="-104" width="80" height="74" rx="12" fill="#141418" stroke="url(#au)" stroke-width="9"/>
+    <path d="M-52 -104 q0 -40 40 -40 h58 q34 0 34 34 v46 h-132 z"
+          fill="#141418" stroke="url(#au)" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-52 -152 l-58 -12 v46 l58 6" fill="#141418" stroke="url(#au)" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-14 -104 l-12 52 h58 l-10 -52" fill="none" stroke="#c8a24a" stroke-width="7" stroke-linejoin="round" stroke-opacity=".85"/>
+    <rect x="-58" y="16" width="116" height="104" rx="14" fill="none" stroke="#c8a24a" stroke-width="6" stroke-opacity=".8"/>
+    <path d="M-34 56 h68 M-34 84 h48" stroke="#c8a24a" stroke-width="6" stroke-linecap="round" stroke-opacity=".55"/>
+    <path d="M-84 -6 q-18 60 -6 122" stroke="#ffffff" stroke-opacity=".22" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <!-- mist -->
+  <g fill="#ecd69a">
+    <circle cx="470" cy="300" r="9"  fill-opacity=".85"/>
+    <circle cx="514" cy="338" r="6"  fill-opacity=".7"/>
+    <circle cx="556" cy="300" r="11" fill-opacity=".6"/>
+    <circle cx="596" cy="356" r="7"  fill-opacity=".5"/>
+    <circle cx="636" cy="318" r="5"  fill-opacity=".45"/>
+    <circle cx="500" cy="392" r="5"  fill-opacity=".5"/>
+    <circle cx="574" cy="414" r="8"  fill-opacity=".4"/>
+    <circle cx="646" cy="392" r="5"  fill-opacity=".35"/>
+    <circle cx="446" cy="366" r="4"  fill-opacity=".6"/>
+  </g>
+  <g fill="none" stroke="#c8a24a" stroke-width="4" stroke-opacity=".45" stroke-linecap="round">
+    <path d="M452 330 q60 -34 132 -8"/>
+    <path d="M484 396 q74 -30 148 -14"/>
+  </g>
+
+  <g fill="none" stroke="#c8a24a" stroke-opacity=".55" stroke-width="2">
+    <path d="M120 856 H330"/><path d="M470 856 H680"/>
+  </g>
+  <path d="M400 844 414 856 400 868 386 856z" fill="#c8a24a" fill-opacity=".8"/>
+  <text x="400" y="920" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="30" letter-spacing="14" fill="#9c968b">FINISH &amp; STYLE</text>
+</svg>
